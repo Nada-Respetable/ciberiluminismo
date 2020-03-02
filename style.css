@@ -65,10 +65,10 @@ body {
     #logo-touch {
         display: none;
 		position: absolute;
-		left:50%;
-		top:4px;
+		left:40%;
+		top:25%;
 		margin-left: -80px;
-		width:160px;
+		width:300px;
     }
 
 #binder-clip{
@@ -153,9 +153,9 @@ body {
 		cursor: pointer;
 	}
 	.touch-device #menu-open div {
-	    background-color: black;
-	    border: 1px solid black;
-	    border-radius: 2px 2px 2px 2px;
+	    background-color: white;
+		border: 1px solid black;
+		border-radius: 0px;
 	    height: 15%;
 	    margin-bottom: 15%;
 	    width: 90%;
