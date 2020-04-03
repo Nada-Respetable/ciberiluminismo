@@ -1,4 +1,7 @@
-## Sitio para Ciberiluminismo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c6c48df-1717-4e33-a7bf-86ee6b9fa4dd/deploy-status)](https://app.netlify.com/sites/ciberiluminismo/deploys)
+
+
+## Ciberiluminismo.xyz 👽🐬☢️
 
 Del estudio de caso que publiqué [en Instagram](https://www.instagram.com/p/B-fmcwYF9s9/):
 
@@ -22,4 +25,4 @@ Luego, yo sólo tendré que traducir el logotipo y listar los sitios en el Json 
 
 Por supuesto, el proyecto no es perfecto. Por ejemplo, Google Docs muestra las imágenes muy torpemente en móviles.⁠"
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7c6c48df-1717-4e33-a7bf-86ee6b9fa4dd/deploy-status)](https://app.netlify.com/sites/ciberiluminismo/deploys)
+
