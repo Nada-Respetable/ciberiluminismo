@@ -2,12 +2,12 @@
 
 Del estudio de caso que publiqué [en Instgram](https://www.instagram.com/p/B-fmcwYF9s9/):
 
-> "El Ciberiluminismo es un marco teórico-meme comenzado por [Nada Respetable](http://nadarespetable.com) (publicación/colectivo/grupo terapéutico) al que pertenezco. ⁠
+"El Ciberiluminismo es un marco teórico-meme comenzado por [Nada Respetable](http://nadarespetable.com) (publicación/colectivo/grupo terapéutico) al que pertenezco. 
 ⁠
 Hace poco, hice un #rediseño nuestro sitio. Mis prioridades eran sencillas: 
 1. Que significase algo. 
 2. Que fuera fácil de traducir. ⁠
-⁠
+
 El sitio actual es una iteración de [Binder](https://github.com/clementvalla/binder/), un proyecto de www.thisisourwork.net. ⁠
 
 Uno de los principios del brutalismo es la franqueza sobre los materiales utilizados. Binder es un hermoso ejemplo 
