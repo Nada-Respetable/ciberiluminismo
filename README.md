@@ -16,7 +16,7 @@ El sitio actual es una iteración de [Binder](https://github.com/clementvalla/bi
 Uno de los principios del brutalismo es la franqueza sobre los materiales utilizados. Binder es un hermoso ejemplo 
 de brutalismo en el diseño web. ⁠
 ⁠
-El actual sitio de Ciberiluminismo consiste en una serie de iframes de Google Docs, sobre los que están sobreimpuestos un logo 
+El actual sitio de Ciberiluminismo consiste de una serie de iframes de Google Docs, sobre los que están sobreimpuestos un logo 
 y un menú arrastrable. ⁠
 ⁠
 Google Docs permite a cualquiera producir #traducciones plenas sin conocimientos de desarrollo. 
