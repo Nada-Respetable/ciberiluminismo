@@ -1,6 +1,6 @@
 ## Sitio para Ciberiluminismo
 
-Del estudio de caso que publiqué [en Instgram](https://www.instagram.com/p/B-fmcwYF9s9/):
+Del estudio de caso que publiqué [en Instagram](https://www.instagram.com/p/B-fmcwYF9s9/):
 
 "El Ciberiluminismo es un marco teórico-meme comenzado por [Nada Respetable](http://nadarespetable.com) (publicación/colectivo/grupo terapéutico) al que pertenezco. 
 ⁠
