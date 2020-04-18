@@ -111,12 +111,13 @@ body {
 
 .about{
 opacity: 0;
+	font-family: Helvetica, Arial, sans-serif;
 	position: fixed;
     letter-spacing: 0.5px;
     font-size: 14px;
     line-height: 19px;
 	max-width: 277px;
-	right: 50px;
+	right: 25px;
 	top: 155px;
 }
 /* Psuedo mobile styles for wide touch devices */
@@ -212,7 +213,6 @@ opacity: 0;
 	}
 	.about{
 		width: auto;
-		display: none;
 	}
 }
 /* @end */
