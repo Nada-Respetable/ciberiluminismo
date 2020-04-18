@@ -111,18 +111,19 @@ body {
 
 .about{
 	position: fixed;
-	font-family: courier;
+	font-family: Helvetica, sans-serif;
     letter-spacing: 0.5px;
     font-size: 14px;
     line-height: 19px;
     z-index: 100;
-    color: rgba(0, 0.8);
 	z-index: 90;
 	max-width: 277px;
-	right: 145px;
+	right: 50px;
 	top: 155px;
 }
-
+.about a{
+	opacity: 0;
+}
 /* Psuedo mobile styles for wide touch devices */
     .touch-device #menu {
         position: fixed;
@@ -132,7 +133,7 @@ body {
         z-index:10;
         left: 2px;
         right: 2px;
-        top: 2px;
+        top: 0;
     }
 
 	.touch-device #logo{
