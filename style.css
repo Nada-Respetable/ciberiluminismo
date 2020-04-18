@@ -110,6 +110,7 @@ body {
 }
 
 .about{
+	opacity: 0;
 	position: fixed;
 	font-family: Helvetica, sans-serif;
     letter-spacing: 0.5px;
