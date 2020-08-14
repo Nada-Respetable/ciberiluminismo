@@ -1,0 +1,131 @@
+@font-face{
+    font-family: 'Common Sans', Helvetica, Arial, sans-serif;
+    src: url('fonts/CommonSans-Regular.otf');
+}
+$space-unit: .9em;
+$body-font: 'Common Sans', Helvetica, Arial, sans-serif;
+$title-font: 'Helvetica', Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+
+body{
+    font-family: $body-font;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  $space-unit;
+    position: sticky;
+    top: 0;
+}
+.logo{
+max-width: 35px;
+}
+.menu-toggle{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 0px;
+}
+nav{
+   display: none;
+   position: absolute;
+   right: $space-unit;
+   top: $space-unit*3;
+   padding-top: $space-unit;
+   text-align: right;
+   background-color: white;
+   z-index: -1;
+   padding-left: $space-unit;
+   padding-bottom: $space-unit;
+ul{
+    list-style: none;
+}
+}
+.menu-toggle:hover ~ nav, nav:hover{
+    display: block;
+}
+main {
+    padding-left: $space-unit*8;
+    padding-right: $space-unit*8;
+    padding-top: $space-unit*2;
+    display: block;
+    margin: 0 auto;
+}
+@media(max-width: 800px){
+    main{
+    padding-left: $space-unit*4;
+    padding-right: $space-unit*4;}
+}
+article {
+    h1{
+        padding-bottom: $space-unit;
+  
+    }
+    h2,h3,h4{
+        padding-bottom: $space-unit;
+        padding-top: $space-unit;
+    }
+    h1,h2,h3,h4{
+        font-family: $title-font;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+p{
+    padding-bottom: $space-unit;
+} 
+a {
+    &:visited{
+        color: grey;
+    }
+} 
+img {
+    padding-top: $space-unit;
+    padding-bottom: $space-unit*2;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.caption{
+    text-align: center;
+    font-size: $space-unit;
+    opacity: 0.5;
+    padding-bottom: $space-unit*2;
+}
+blockquote{
+    font-size: $space-unit*1.6;
+    text-align: center;
+    padding-top: $space-unit;
+}
+cite{
+    display: block;
+    font-size: $space-unit;
+    font-style: normal;
+    opacity: 0.5;
+    text-align: center;
+    padding-top: $space-unit;
+    padding-bottom: $space-unit*2;
+} 
+ul{
+    list-style-position: inside; } }
+footer{
+    margin-top: $space-unit*5;
+    padding-bottom: $space-unit*1.5;
+    font-size: $space-unit;
+    text-align: center;
+}
+@media(max-width: 800px){
+    footer{
+        margin-left: $space-unit*2;
+        margin-right: $space-unit*2;
+        padding-bottom: $space-unit*2;
+    }
+}

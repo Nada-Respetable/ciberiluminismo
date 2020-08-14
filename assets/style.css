@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Common Sans', Helvetica, Arial, sans-serif;
+  src: url("fonts/CommonSans-Regular.otf"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto; }
+
+body {
+  font-family: "Common Sans", Helvetica, Arial, sans-serif; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9em;
+  position: sticky;
+  top: 0; }
+
+.logo {
+  max-width: 35px; }
+
+.menu-toggle {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border: 0px; }
+
+nav {
+  display: none;
+  position: absolute;
+  right: 0.9em;
+  top: 2.7em;
+  padding-top: 0.9em;
+  text-align: right;
+  background-color: white;
+  z-index: -1;
+  padding-left: 0.9em;
+  padding-bottom: 0.9em; }
+  nav ul {
+    list-style: none; }
+
+.menu-toggle:hover ~ nav, nav:hover {
+  display: block; }
+
+main {
+  padding-left: 7.2em;
+  padding-right: 7.2em;
+  padding-top: 1.8em;
+  display: block;
+  margin: 0 auto; }
+
+@media (max-width: 800px) {
+  main {
+    padding-left: 3.6em;
+    padding-right: 3.6em; } }
+article h1 {
+  padding-bottom: 0.9em; }
+article h2, article h3, article h4 {
+  padding-bottom: 0.9em;
+  padding-top: 0.9em; }
+article h1, article h2, article h3, article h4 {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center; }
+article p {
+  padding-bottom: 0.9em; }
+article a:visited {
+  color: grey; }
+article img {
+  padding-top: 0.9em;
+  padding-bottom: 1.8em;
+  display: block;
+  margin: 0 auto;
+  max-width: 400px; }
+article .caption {
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.5;
+  padding-bottom: 1.8em; }
+article blockquote {
+  font-size: 1.44em;
+  text-align: center;
+  padding-top: 0.9em; }
+article cite {
+  display: block;
+  font-size: 0.9em;
+  font-style: normal;
+  opacity: 0.5;
+  text-align: center;
+  padding-top: 0.9em;
+  padding-bottom: 1.8em; }
+article ul {
+  list-style-position: inside; }
+
+footer {
+  margin-top: 4.5em;
+  padding-bottom: 1.35em;
+  font-size: 0.9em;
+  text-align: center; }
+
+@media (max-width: 800px) {
+  footer {
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    padding-bottom: 1.8em; } }
+
+/*# sourceMappingURL=style.css.map */
