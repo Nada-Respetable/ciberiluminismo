@@ -1,0 +1,15 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/postdigitalist/ciberiluminismo.git",
+  "author": "Aaron Marco Arias <47487720+thegodofnoise@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel index.html newsletter.html teoria.html",
+    "build": "parcel build index.html newsletter.html teoria.html"
+  }
+}
